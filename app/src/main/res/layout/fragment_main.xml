@@ -27,6 +27,7 @@
                 android:text="@string/id" />
 
             <TextView
+                android:id="@+id/sourceId"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/margin"
@@ -46,6 +47,7 @@
                 android:text="@string/name" />
 
             <TextView
+                android:id="@+id/sourceName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/margin"
@@ -65,6 +67,7 @@
                 android:text="@string/order" />
 
             <TextView
+                android:id="@+id/sourceOrder"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/margin"
@@ -72,6 +75,7 @@
         </LinearLayout>
     </LinearLayout>
     <Button
+        android:id="@+id/copyButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Copy"/>
@@ -94,6 +98,7 @@
                     android:text="@string/id" />
 
                 <TextView
+                    android:id="@+id/newId"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/margin"
@@ -113,6 +118,7 @@
                     android:text="@string/name" />
 
                 <TextView
+                    android:id="@+id/newName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/margin"
@@ -132,6 +138,7 @@
                     android:text="@string/order" />
 
                 <TextView
+                    android:id="@+id/newOrder"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/margin"
